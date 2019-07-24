@@ -7,7 +7,12 @@ Kakao restAPI / Naver restAPI를 이용한 도서(책) 검색 웹 서비스 입�
 ```
 java -jar booksfinder.jar
 ```
-2. 소스 빌드  
+2. jar 생성
+```
+mvn package
+```
+
+3. 소스 빌드  
 ```
 - Client build
 cd frontend/vue 
@@ -18,10 +23,10 @@ npm run build
 cd ../..
 mvn package
 ```
-3. Jar 실행파일 경로 (Github)
+4. Jar 실행파일 경로 (Github)
 https://github.com/dahyeya/booksfinder/blob/master/booksfinder.jar
 
-4. 개발 정보
+5. 개발 정보
 - Server : SpringBoot
 - 사용 라이브러리
   - HttpClient : java Http 통신 (API 서버 접속)
